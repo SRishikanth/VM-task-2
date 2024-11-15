@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive OpenStreetMap</title>
+  
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+
+  <h1>Interactive OpenStreetMap</h1>
+
+  <div class="input-container">
+    <input type="text" id="user-id-input" placeholder="Enter User ID" />
+    <button id="start-app">Start App</button>
+    <button id="change-color">Change Polyline Color</button>
+    <button id="toggle-dash">Toggle Dashed Line</button>
+  </div>
+
+  <div id="map"></div>
+
+  <div id="distance-info">Total Distance: 0 km</div>
+
+  
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+
+  <script  src="app.js"></script>
+
+</body>
+</html>
