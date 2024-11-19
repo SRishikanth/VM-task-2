@@ -1,1 +1,1 @@
-this project is map based prject
+this project is map based project
